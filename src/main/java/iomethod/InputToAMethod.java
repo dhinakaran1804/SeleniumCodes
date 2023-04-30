@@ -1,4 +1,4 @@
-package practice;
+package iomethod;
 public class InputToAMethod {
 
 	public void sum(int num1, int num2, float num3) { // --> Parameterized method

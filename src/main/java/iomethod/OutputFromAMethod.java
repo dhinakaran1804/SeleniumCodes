@@ -1,4 +1,4 @@
-package practice;
+package iomethod;
 
 public class OutputFromAMethod {
 
