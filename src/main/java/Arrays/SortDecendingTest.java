@@ -1,4 +1,4 @@
-package learnArrays;
+package Arrays;
 
 import java.util.Arrays;
 
