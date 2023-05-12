@@ -11,6 +11,7 @@ public class SortDecendingTest {
 
 		for (int i = sort-1; i >=0; i--) {
 			System.out.println(d[i]);
+			
 		}
 
 	}
