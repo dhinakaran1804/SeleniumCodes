@@ -16,9 +16,10 @@ public class ListForAmazon {
 		driver.get("https://www.amazon.in/s?k=phone&crid=4P1QGVK2JNSJ&sprefix=pho%2Caps%2C508&ref=nb_sb_noss_2");
 		List<WebElement> prize = driver.findElements(By.xpath("//span[@class='a-price-whole']"));
 		for (int i = 0; i < prize.size(); i++) {
-			WebElement get = prize.get(i);	
+			WebElement get = prize.get(i);
 			String text = get.getText();
-			System.out.println(text.replace(",",""));
+			System.out.println(text.replace(",", ""));
+
 		}
 
 	}
